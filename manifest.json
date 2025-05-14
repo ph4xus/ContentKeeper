@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/ckauth19x.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' 'wasm-eval'; object-src 'self'",
+   "description": "ContentKeeper Authenticator G3",
+   "icons": {
+      "128": "img/ckauth19x.png",
+      "16": "img/ckauth19x.png",
+      "32": "img/ckauth19x.png",
+      "48": "img/ckauth19x.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw37XOeuEV2nv+swQdB6CZM4CK8dcKBpEzbCfuBd24zyh3nrLUx9dCclHCNMUBO9JBgjzcjGwydxIC0NTOOw9qiMfT9Ma9O38PcU9dFNHu1B7siInJkaCLCsr5B1RvjCQoLadlngnAw3Hu4hMVFfBuebrR+LztZqsgcUYaxBrlqr79+3OP0KQ/Keh9J/30hJLeIzxVSEo3i4itgp3zPv9+/pqy1NvM0rCk9JEWeZ4dIv0HiBAoVyg8FzO6T6Hx6YnjHCNZ17Nrb7L2yeWEAmoOK5+fa6S59aC2WMtLGbf6MN0/6DPlz0qjN2a47RL7Kmssk6VAZjvCSFh2SvYPlbinQIDAQAB",
+   "manifest_version": 2,
+   "name": "CK-Authenticator G3",
+   "offline_enabled": true,
+   "permissions": [ "webRequest", "webRequestBlocking", "identity", "identity.email", "https://*/*", "http://*/*", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.1",
+   "web_accessible_resources": [ "img/ckauth19x.png" ]
+}
